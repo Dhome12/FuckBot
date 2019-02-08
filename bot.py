@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,base64,requests,urllib
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="EBzShvWj4MoSkeqo82B0.KDxryEctushMixYB2tqq8a.xPLTKDeZQbwAXY3OdoZnJjhhrKw3E4syZWJwVZ55dq0=")
 cl.loginResult()
 
 ki = kk = kc = cl 
@@ -21,7 +21,7 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid]
-admin=[""]
+admin=["u91d5d161e0935121e6217c9bd93410f0"]
 wait = {
     'contact':True,
     'autoJoin':True,
